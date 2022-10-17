@@ -21,7 +21,7 @@ class AuthorData {
                 <td>
                     <img src="${result.download_url}" width=50 height=50>
                 </td>
-                <td>${result.author}</td>
+                <td class="text-white">${result.author}</td>
             </tr>`;
         });
     }
